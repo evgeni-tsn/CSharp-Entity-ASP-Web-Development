@@ -1,0 +1,7 @@
+.exe
+--07.DirectoryTraversal.exe - 7.000kb
+--07.DirectoryTraversal.vshost.exe - 22.164kb
+.config
+--07.DirectoryTraversal.vshost.exe.config - 0.185kb
+.pdb
+--07.DirectoryTraversal.pdb - 13.500kb

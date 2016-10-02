@@ -1,0 +1,17 @@
+Problem 1: Value and Reference Types
+
+- Value types: 
+	1.Structs, Enumerations, Integer, Float, Double, Decimal, Bool
+	2.Create a new copy ot the value.
+	3.The value gets passed as argument.
+	4.Stack
+	5.Value types are Mutable.
+- Reference types: 
+	1.Class, Interface, Delegate, Dynamic, Object, String
+	2.Create pointer(reference) to already assigned value.
+	3.A pointer to the value gets passed as argument.
+	4.Heap
+	5.Value types are Immutable.
+	
+	The REF keyword causes an argument to be passed by reference, not by value.
+	The OUT is like the ref keyword, except that ref requires that the variable be initialized before it is passed.

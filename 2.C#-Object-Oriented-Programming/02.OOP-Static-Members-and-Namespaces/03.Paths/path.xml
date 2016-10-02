@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Path3D xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Path>
+    <Point3D>
+      <X>3</X>
+      <Y>4</Y>
+      <Z>2</Z>
+    </Point3D>
+    <Point3D>
+      <X>5.2</X>
+      <Y>6</Y>
+      <Z>7</Z>
+    </Point3D>
+    <Point3D>
+      <X>1</X>
+      <Y>2</Y>
+      <Z>3</Z>
+    </Point3D>
+    <Point3D>
+      <X>10</X>
+      <Y>11</Y>
+      <Z>9.4</Z>
+    </Point3D>
+  </Path>
+</Path3D>
