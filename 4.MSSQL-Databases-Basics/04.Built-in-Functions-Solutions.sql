@@ -127,54 +127,7 @@ ORDER BY G.Name ASC, [Duration] ASC, [Part of the Day] ASC
 
 
 --Problem 16. orders table
-CREATE DATABASE MyDb;
-USE MyDb;
-
-CREATE TABLE Orders
-(
-	Id INT PRIMARY KEY IDENTITY,
-	ProductName VARCHAR(50) NOT NULL,
-	OrderDate DATE NOT NULL
-);
-
-INSERT INTO Orders (ProductName, OrderDate)
-VALUES
-('Butter', '2016-09-19 00:00:00.000'),
-('Milk', '2016-09-30 00:00:00.000'),
-('Cheese', '2016-09-04 00:00:00.000'),
-('Bread', '2015-12-20 00:00:00.000'),
-('Tomatoes', '2015-12-30 00:00:00.000')
-
 SELECT O.ProductName, O.OrderDate,
 DATEADD(DAY, 3, O.OrderDate) AS "Pay Due",
 DATEADD(MONTH, 1, O.OrderDate) AS "Delivery Due"
 FROM [dbo].Orders AS O
-
-
---Problem 17. People table
-CREATE DATABASE MyDb2;
-USE MyDb2;
-
-DROP TABLE People;
-CREATE TABLE People
-(
-	Id INT NOT NULL,
-	Name VARCHAR(50) NOT NULL,
-	Birthday DATETIME NOT NULL
-);
-
-INSERT INTO People (Id, Name, Birthday) 
-VALUES 
-(1, 'Victor', '20001207'),
-(2, 'Steven', '19920910'),
-(3, 'Stephen', '19100919'),
-(4, 'John', '20100106')
-
-SELECT 
-	Name,
-	Birthday,
-	DATEDIFF(YEAR, birthday, NOW()) as "AgeInYears",
-	DATEDIFF(MONTH, birthday, NOW()) as "AgeInMonths",
-	DATEDIFF(DAY, birthday, NOW()) as "AgeInDays",
-	DATEDIFF(MINUTE, birthday, NOW()) as "AgeInMinutes"
-FROM People;
