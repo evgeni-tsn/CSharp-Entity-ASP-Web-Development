@@ -7,7 +7,7 @@ FROM WizzardDeposits
 
 --Problem 3. Longest Magic Wand per Deposit Groups
 SELECT DepositGroup, MAX(MagicWandSize) AS LongestMagicWand
-  FROM [Gringotts].[dbo].[WizzardDeposits] AS w
+  FROM WizzardDeposits AS w
  GROUP BY DepositGroup
 
 --Problem 4. Smallest Deposit Group per Magic Wand Size
@@ -26,7 +26,7 @@ SELECT DepositGroup, MAX(MagicWandSize) AS LongestMagicWand
 
  --Problem 5. Deposits Sum
  SELECT w.DepositGroup, SUM(DepositAmount) AS TotalDepositAmount 
-   FROM [Gringotts].[dbo].[WizzardDeposits] AS w
+   FROM WizzardDeposits AS w
   GROUP BY w.DepositGroup
 
  --Problem 6. Deposits Sum for Ollivander Family
