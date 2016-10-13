@@ -1,8 +1,3 @@
--------------------------------------------------------------------------
---SoftUni Databases Basics MSSQL - Functions, Triggers and Transactions--
---Solutions for all exercises                                          --
--------------------------------------------------------------------------
-
 --PART I: SoftUni Database Queries
 USE SoftUni
 GO
