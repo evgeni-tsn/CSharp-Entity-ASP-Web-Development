@@ -1,8 +1,3 @@
--------------------------------------------------------
---SoftUni Databases Basics MSSQL - Built-in Functions--
---Solutions for all exercises                        --
--------------------------------------------------------
-
 --PART I: SoftUni Database Queries
 USE SoftUni;
 

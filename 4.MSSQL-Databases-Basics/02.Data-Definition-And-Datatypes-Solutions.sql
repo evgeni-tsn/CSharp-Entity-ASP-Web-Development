@@ -1,8 +1,3 @@
---------------------------------------------------------------------------
--- SoftUni Databases Basics MSSQL - Data Definitions and Data Types     --
--- Solutions for all exercises                                          --
--- https://judge.softuni.bg/Contests/284/Data-Definition-and-Datatypes  --
---------------------------------------------------------------------------
 
 --Problem 1. Create Database
 USE master

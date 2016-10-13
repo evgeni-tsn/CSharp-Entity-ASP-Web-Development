@@ -1,9 +1,3 @@
-------------------------------------------------------
--- SoftUni Databases Basics MySQL - Basic CRUD      --
--- Solutions for all exercises                      --
--- https://judge.softuni.bg/Contests/289/Basic-CRUD --
-------------------------------------------------------
-
 --PART I: SoftUni Database Queries
 USE SoftUni;
 
