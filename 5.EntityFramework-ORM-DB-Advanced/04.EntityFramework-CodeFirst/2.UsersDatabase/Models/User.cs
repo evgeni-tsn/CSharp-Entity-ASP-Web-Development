@@ -39,6 +39,10 @@ namespace _2.UsersDatabase.Models
 
         public bool isDeleted { get; set; }
 
+        public Town BornTown { get; set; }
+
+        public Town CurrentlyLivingTown { get; set; }
+
         [NotMapped]
         public string FullName => $"{this.FirstName} {this.LastName}";
     }
